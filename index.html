@@ -6,16 +6,39 @@
     <title>exercicio 1</title>
 </head>
 <body>
-    <h1>cadastro</h1>
-     
-    <label for="nome">nome:</label>
-    <input type="text" id="nome"><br>
-       
+    <h1>Cadastro de Usuários</h1>
+    
+    <div>
+        <h2>Usuário 1</h2>
 
-    <label for="telefone">telefone:</label>
-    <input type="text" id="telefone"><br>       
+        <label for="nome1">nome:</label>
+        <input type="text" id="nome1">
 
-    <button type="submit" onclick="cadastrar()">Enviar</button>
+        <label for="telefone1">telefone com DDD:</label>
+        <input type="text" id="telefone1" placeholder="(xx) xxxxx-xxxx">
+    </div>
+    
+    <div>
+        <h2>Usuário 2</h2>
+        <label for="nome2">nome:</label>
+        <input type="text" id="nome2" >
+
+        <label for="telefone2">telefone com DDD:</label>
+        <input type="text" id="telefone2" placeholder="(xx) xxxxx-xxxx">
+    </div>
+    
+    <div>
+        <h2>Usuário 3</h2>
+        <label for="nome3">nome:</label>
+        <input type="text" id="nome3">
+        <label for="telefone3">telefone com DDD:</label>
+        <input type="text" id="telefone3" placeholder="(xx) xxxxx-xxxx">
+    </div>
+    
+    <button type="submit" style="margin-top: 25px;" onclick="executar()">Mostrar usuários com DDD 11</button>
+    
+    <div id="resultado"></div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
